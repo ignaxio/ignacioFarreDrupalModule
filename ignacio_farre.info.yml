@@ -1,0 +1,11 @@
+
+
+name: Ignacio farre
+description: Módulo la web ignacio farre
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - block
