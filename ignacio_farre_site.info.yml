@@ -1,0 +1,11 @@
+
+
+name: Ignacio farre site
+description: Módulo para la web ignacio farre
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - block

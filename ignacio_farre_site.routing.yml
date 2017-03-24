@@ -1,0 +1,72 @@
+ignacio_farre.get_articulos_slider:
+ path: 'ignacio-farre/get-articulos-slider'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getArticulosSlider'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_poderes:
+ path: 'ignacio-farre/get-poderes'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getPoderes'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_experiencias:
+ path: 'rest/ignacio-farre/get-experiencias'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getExperiencias'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_experiencia:
+ path: 'ignacio-farre/get-experiencia/{articulo-path}'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getExperiencia'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_tutoriales:
+ path: 'ignacio-farre/get-tutoriales'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getTutoriales'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_tutorial:
+ path: 'ignacio-farre/get-tutorial/{tutorialPath}'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getTutorial'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_articulo_tutorial:
+ path: 'ignacio-farre/get-articulo/{tutorialPath}/{articuloPath}'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getArticuloTutorial'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+    
+ignacio_farre.get_prueba:
+ path: 'ignacio-farre/get-prueba'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getPrueba'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'
+  
+ignacio_farre.get_prueba_2:
+ path: 'ignacio-farre/get-prueba-2'
+ defaults:
+  _controller: '\Drupal\ignacio_farre_site\Controller\ignacioFarreSiteController::getPrueba2'
+  _title: 'Page Example'
+ requirements:
+  _permission: 'access content'  
+  
